@@ -11,6 +11,6 @@ After building the project:
 **Trajectory**
   Trajectory results are stored in output.txt in the format x, y, z, roll, pitch, yaw.
   Only keyframes are stored.
-  The times are not stored, but the relative frame index of each keyframe is stored in a keyframe_indices text file. The line is the corresponding keyframe and the value is its index relative to all frames from the dataset. From this you can do some easy associations to get the required times.
+  The times are not stored, but the relative frame index of each keyframe is stored in a keyframe_indices text file. The line is the corresponding keyframe and the value is its index relative to all frames from the dataset. From this you can do some easy associations to get the required times. NB: Indexing starts at 1!!!
 
   Hope this addition to PL-SLAM helps!
